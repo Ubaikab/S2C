@@ -56,7 +56,7 @@ const Page = async ({ searchParams }: Props) => {
                 <StyleGuideTypography typographyGuide={typographyGuide} />
             </TabsContent>
 
-            <TabsContent value='moodboard' className="w-full space-y-8">
+            <TabsContent value='moodboard' >
                 <MoodBoard guideImages={guideImages} />
             </TabsContent>
         </>
